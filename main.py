@@ -6,7 +6,7 @@ import random
 import time
 import sys
 
-number = random.randint(1, 99)
+number = random.randint(1, 9999)
 gmail = "sms.bomber"+ str(number) +"@gmail.com"
 phone = sys.argv[1]
 count = int(sys.argv[2])
