@@ -42,7 +42,7 @@ def send_sms(number, gmail, phone, count):
 				"step":"1",
 				"phone":"38"+str(phone), 
 				"smscode":"",
-				"security_login":"4bfcebbb19"})
+				"security_login":"ea932cf1c0"})
 
 			print("'tarantino-family' send message!")
 		except:
