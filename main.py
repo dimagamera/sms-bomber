@@ -14,7 +14,6 @@ from bs4 import BeautifulSoup
 
 
 dp = Dispatcher()
-token = '6643377206:AAFbZaSeFTLSdK23QEPX1S5gUFS1Wpw1588'
 @dp.message(CommandStart())
 async def CommandStart_heandler(message: Message):
     await message.answer(
